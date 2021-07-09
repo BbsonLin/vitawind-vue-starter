@@ -1,6 +1,10 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <div class="flex justify-center items-center">
+    <img alt="Vitawind logo" src="./assets/vitawind-logo.svg" width="200" />
+    <h1 class="mx-4 text-6xl"> + </h1>
+    <img alt="Vue logo" src="./assets/vue-logo.png" />
+  </div>
+  <HelloWorld msg="Hello Vitawind Vue3" />
 </template>
 
 <script setup>
